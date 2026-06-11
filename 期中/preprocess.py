@@ -1,9 +1,11 @@
 """
 AIX Preprocessing Pipeline
 Usage: python preprocess.py [--dataset DIR] [--feature mel|mfcc]
+Output: processed/{train,val,test}.json  +  aix_tokenizer.json
+No external ML dependencies required.
 """
 
-import os, json, argparse
+import os, json, csv, argparse
 import numpy as np
 from pathlib import Path
 from scipy.io import wavfile
@@ -37,14 +39,15 @@ class AIXTokenizer:
         return ([self.bos_id] + ids + [self.eos_id]) if add_special else ids
 
     def decode(self, ids, skip_special=True):
-        return [self.id2token.get(i,"[UNK]") for i in ids
+        return [self.id2token.get(i, "[UNK]") for i in ids
                 if not (skip_special and self.id2token.get(i) in self.SPECIAL_TOKENS)]
 
     def save(self, path):
         with open(path, "w", encoding="utf-8") as f:
             json.dump({
                 "token2id": self.token2id,
-                "id2token": {str(k): v for k,v in self.id2token.items()},
+                "id2token": {str(k): v for k, v in self.id2token.items()},
+                "vocab_size": self.vocab_size,
             }, f, ensure_ascii=False, indent=2)
 
     @classmethod
@@ -53,7 +56,7 @@ class AIXTokenizer:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
         tok.token2id = data["token2id"]
-        tok.id2token = {int(k): v for k,v in data["id2token"].items()}
+        tok.id2token = {int(k): v for k, v in data["id2token"].items()}
         return tok
 
 
@@ -71,20 +74,25 @@ class AudioFeatureExtractor:
 
     def _stft(self, wav):
         win = np.hanning(self.n_fft)
-        frames = [np.abs(np.fft.rfft(wav[i:i+self.n_fft]*win, n=self.n_fft))
-                  for i in range(0, len(wav)-self.n_fft, self.hop)]
-        return np.array(frames).T
+        return np.array([
+            np.abs(np.fft.rfft(wav[i:i+self.n_fft] * win, n=self.n_fft))
+            for i in range(0, len(wav) - self.n_fft, self.hop)
+        ]).T
 
     def _mel_fb(self):
-        hz2mel = lambda h: 2595*np.log10(1+h/700)
-        mel2hz = lambda m: 700*(10**(m/2595)-1)
-        pts = np.floor((self.n_fft+1)*mel2hz(np.linspace(hz2mel(self.fmin),hz2mel(self.fmax),self.n_mels+2))/self.sr).astype(int)
-        fb = np.zeros((self.n_mels, self.n_fft//2+1))
-        for m in range(1, self.n_mels+1):
+        hz2mel = lambda h: 2595 * np.log10(1 + h / 700)
+        mel2hz = lambda m: 700 * (10 ** (m / 2595) - 1)
+        pts = np.floor(
+            (self.n_fft + 1) *
+            mel2hz(np.linspace(hz2mel(self.fmin), hz2mel(self.fmax), self.n_mels + 2)) /
+            self.sr
+        ).astype(int)
+        fb = np.zeros((self.n_mels, self.n_fft // 2 + 1))
+        for m in range(1, self.n_mels + 1):
             for k in range(pts[m-1], pts[m]):
-                fb[m-1,k] = (k-pts[m-1])/(pts[m]-pts[m-1])
+                fb[m-1, k] = (k - pts[m-1]) / (pts[m] - pts[m-1])
             for k in range(pts[m], pts[m+1]):
-                fb[m-1,k] = (pts[m+1]-k)/(pts[m+1]-pts[m])
+                fb[m-1, k] = (pts[m+1] - k) / (pts[m+1] - pts[m])
         return fb
 
     def mel(self, path):
@@ -92,14 +100,16 @@ class AudioFeatureExtractor:
 
     def mfcc(self, path):
         M = self.mel(path)
-        n_mel, n_t = M.shape
-        return np.array([np.sum(M*np.cos(np.pi*i/n_mel*(np.arange(n_mel)+.5))[:,None], 0)
-                         for i in range(self.n_mfcc)], dtype=np.float32)
+        n_mel = M.shape[0]
+        return np.array([
+            np.sum(M * np.cos(np.pi * i / n_mel * (np.arange(n_mel) + .5))[:, None], 0)
+            for i in range(self.n_mfcc)
+        ], dtype=np.float32)
 
     def extract(self, path, feature_type="mel"):
         wav = self._load(path)
         feat = self.mel(path) if feature_type == "mel" else self.mfcc(path)
-        return feat, len(wav)/self.sr
+        return feat, round(len(wav) / self.sr, 3)
 
 
 def process_split(records, tokenizer, extractor, feature_type, out_dir, name):
@@ -112,55 +122,62 @@ def process_split(records, tokenizer, extractor, feature_type, out_dir, name):
             feat, dur = extractor.extract(rec["wav_path"], feature_type)
             feat_path = feat_dir / f"{rec['id']}.npy"
             np.save(str(feat_path), feat)
+            token_ids = tokenizer.encode(rec["tokens"])
             processed.append({
                 **rec,
-                "feat_path": str(feat_path),
-                "feat_shape": list(feat.shape),
+                "feat_path":    str(feat_path),
+                "feat_shape":   list(feat.shape),
                 "feature_type": feature_type,
-                "token_ids": tokenizer.encode(rec["tokens"]),
-                "seq_len": len(tokenizer.encode(rec["tokens"])),
+                "token_ids":    token_ids,
+                "seq_len":      len(token_ids),
             })
         except Exception as e:
             failed.append({"id": rec["id"], "error": str(e)})
 
+    # JSON — 完整欄位，供 03_train.py 直接讀取
     with open(out_dir / f"processed_{name}.json", "w", encoding="utf-8") as f:
         json.dump(processed, f, ensure_ascii=False, indent=2)
+
+    # CSV — 輕量版，方便用 Excel 或 pandas 查看
+    if processed:
+        csv_path = out_dir / f"{name}.csv"
+        fields = ["id", "type", "aix_text", "zh",
+                  "category", "augment", "duration_s", "seq_len", "feat_path"]
+        with open(csv_path, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(processed)
 
     if failed:
         with open(out_dir / f"failed_{name}.json", "w", encoding="utf-8") as f:
             json.dump(failed, f, ensure_ascii=False, indent=2)
 
-    print(f"{name}: {len(processed)} ok, {len(failed)} failed")
+    status = f"{len(processed)} ok"
+    if failed: status += f", {len(failed)} failed"
+    print(f"  {name}: {status}")
     return processed
 
 
-def build_hf_dataset(splits, out_dir):
-    try:
-        from datasets import Dataset, DatasetDict
-        ds = DatasetDict({
-            split: Dataset.from_list([{
-                "id": r["id"], "wav_path": r["wav_path"],
-                "aix_text": r["aix_text"],
-                "tokens": " ".join(r["tokens"]),
-                "token_ids": r["token_ids"],
-                "zh": r["zh"],
-                "category": r.get("category", r.get("grammar","")),
-                "type": r["type"],
-                "duration_s": r["duration_s"],
-                "augment": r["augment"],
-            } for r in records])
-            for split, records in splits.items()
-        })
-        ds.save_to_disk(str(out_dir / "hf_dataset"))
-        print(f"HuggingFace Dataset saved → {out_dir / 'hf_dataset'}")
-    except ImportError:
-        print("datasets not installed, skipping HF export")
+def print_summary(splits, feature_type):
+    all_recs = [r for rs in splits.values() for r in rs]
+    if not all_recs:
+        return
+    shapes   = [r["feat_shape"] for r in all_recs]
+    total_s  = sum(r["duration_s"] for r in all_recs)
+    avg_frames = int(np.mean([s[1] for s in shapes]))
+    print(f"\nSummary")
+    print(f"  total samples : {len(all_recs)}")
+    print(f"  total duration: {total_s:.1f}s")
+    print(f"  feature type  : {feature_type}  shape[0]={shapes[0][0]}")
+    print(f"  avg frames    : {avg_frames}")
+    for name, recs in splits.items():
+        print(f"  {name:5s}         : {len(recs)} samples")
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", default="./aix_dataset")
-    parser.add_argument("--feature", default="mel", choices=["mel","mfcc"])
+    parser.add_argument("--feature", default="mel", choices=["mel", "mfcc"])
     parser.add_argument("--n-mels",  type=int, default=80)
     parser.add_argument("--n-mfcc",  type=int, default=40)
     args = parser.parse_args()
@@ -176,7 +193,7 @@ def main():
     extractor = AudioFeatureExtractor(n_mels=args.n_mels, n_mfcc=args.n_mfcc)
 
     splits = {}
-    for name in ["train","val","test"]:
+    for name in ["train", "val", "test"]:
         path = ds_dir / "metadata" / f"{name}.json"
         if not path.exists():
             continue
@@ -184,14 +201,9 @@ def main():
             records = json.load(f)
         splits[name] = process_split(records, tokenizer, extractor, args.feature, out_dir, name)
 
-    build_hf_dataset(splits, out_dir)
+    print_summary(splits, args.feature)
+    print(f"\nNext: python 03_train.py --data {out_dir}")
 
-    all_recs = [r for rs in splits.values() for r in rs]
-    if all_recs:
-        shapes = [r["feat_shape"] for r in all_recs]
-        print(f"Feature: {args.feature}, shape[0]={shapes[0][0]}, "
-              f"avg_frames={int(np.mean([s[1] for s in shapes]))}")
-    print(f"Next: python 03_train.py --data {out_dir}")
 
 if __name__ == "__main__":
     main()

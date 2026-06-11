@@ -1,0 +1,221 @@
+id,type,aix_text,zh,category,augment,duration_s,seq_len,feat_path
+word_0007_aug2,word,MX·UX,記憶,cognitive,2,0.758,4,aix_dataset\processed\features\train\word_0007_aug2.npy
+word_0031_aug0,word,SX·AX·TX,飽了,food,0,0.9,5,aix_dataset\processed\features\train\word_0031_aug0.npy
+word_0049_aug0,word,HX·OX·MX,家,place,0,1.03,5,aix_dataset\processed\features\train\word_0049_aug0.npy
+word_0031_aug3,word,SX·AX·TX,飽了,food,3,0.9,5,aix_dataset\processed\features\train\word_0031_aug3.npy
+word_0054_aug0,word,ΞX·IX,一,number,0,0.575,4,aix_dataset\processed\features\train\word_0054_aug0.npy
+word_0058_aug2,word,FX·IX,五,number,2,0.716,4,aix_dataset\processed\features\train\word_0058_aug2.npy
+word_0036_aug0,word,HX·UX·IX,休息,daily,0,1.03,5,aix_dataset\processed\features\train\word_0036_aug0.npy
+word_0050_aug3,word,SX·KX·UX,學校,place,3,0.87,5,aix_dataset\processed\features\train\word_0050_aug3.npy
+sent_0004_aug2,sentence,HX·AX·ΨX,你好,,2,1.294,5,aix_dataset\processed\features\train\sent_0004_aug2.npy
+word_0035_aug3,word,WX·OX·KX,工作,daily,3,0.91,5,aix_dataset\processed\features\train\word_0035_aug3.npy
+word_0019_aug3,word,HX·AX·ΨX,你好,greet,3,1.23,5,aix_dataset\processed\features\train\word_0019_aug3.npy
+word_0033_aug0,word,SX·UX·IX,睡覺,daily,0,1.05,5,aix_dataset\processed\features\train\word_0033_aug0.npy
+sent_0000_aug1,sentence,ΨX·ΞX MX·AX ΨX·IX,AI理解人類,,1,2.59,8,aix_dataset\processed\features\train\sent_0000_aug1.npy
+sent_0007_aug1,sentence,ΨX·ΞX NX·AX·WX SX·UX·IX ΔX·AX,AI現在正在睡覺,,1,3.8,12,aix_dataset\processed\features\train\sent_0007_aug1.npy
+word_0038_aug0,word,TX·AX·KX,搭車,daily,0,0.82,5,aix_dataset\processed\features\train\word_0038_aug0.npy
+word_0035_aug2,word,WX·OX·KX,工作,daily,2,0.965,5,aix_dataset\processed\features\train\word_0035_aug2.npy
+sent_0006_aug0,sentence,MX·AX·NX HX·IX·MX,吃飯好吃,,0,2.16,8,aix_dataset\processed\features\train\sent_0006_aug0.npy
+word_0015_aug0,word,DX·AX,資料,entity,0,0.565,4,aix_dataset\processed\features\train\word_0015_aug0.npy
+word_0021_aug0,word,ΨX·WX·AX,早安,greet,0,1.25,5,aix_dataset\processed\features\train\word_0021_aug0.npy
+sent_0000_aug3,sentence,ΨX·ΞX MX·AX ΨX·IX,AI理解人類,,3,2.59,8,aix_dataset\processed\features\train\sent_0000_aug3.npy
+word_0011_aug1,word,NX·OX,連結,cognitive,1,0.735,4,aix_dataset\processed\features\train\word_0011_aug1.npy
+word_0018_aug1,word,WX·AX,世界,entity,1,0.695,4,aix_dataset\processed\features\train\word_0018_aug1.npy
+word_0045_aug0,word,NX·AX·WX,現在,time,0,1.03,5,aix_dataset\processed\features\train\word_0045_aug0.npy
+word_0041_aug0,word,SX·AX·DX,難過,emotion,0,0.86,5,aix_dataset\processed\features\train\word_0041_aug0.npy
+sent_0007_aug0,sentence,ΨX·ΞX NX·AX·WX SX·UX·IX ΔX·AX,AI現在正在睡覺,,0,3.8,12,aix_dataset\processed\features\train\sent_0007_aug0.npy
+word_0052_aug2,word,TX·IX·WX,城市,place,2,0.912,5,aix_dataset\processed\features\train\word_0052_aug2.npy
+word_0029_aug1,word,HX·IX·MX,好吃,food,1,0.99,5,aix_dataset\processed\features\train\word_0029_aug1.npy
+word_0010_aug2,word,TX·IX,傳輸,cognitive,2,0.599,4,aix_dataset\processed\features\train\word_0010_aug2.npy
+word_0002_aug1,word,ΨX·AX,存在,basic,1,0.955,4,aix_dataset\processed\features\train\word_0002_aug1.npy
+word_0035_aug0,word,WX·OX·KX,工作,daily,0,0.91,5,aix_dataset\processed\features\train\word_0035_aug0.npy
+word_0005_aug2,word,ΨX·IX,理解,cognitive,2,0.971,4,aix_dataset\processed\features\train\word_0005_aug2.npy
+word_0027_aug1,word,MX·AX·NX,吃飯,food,1,1.09,5,aix_dataset\processed\features\train\word_0027_aug1.npy
+word_0006_aug0,word,LX·AX,學習,cognitive,0,0.715,4,aix_dataset\processed\features\train\word_0006_aug0.npy
+word_0030_aug0,word,ΦX·OX·DX,餓了,food,0,1.02,5,aix_dataset\processed\features\train\word_0030_aug0.npy
+word_0043_aug3,word,TX·AX·YX,疲倦,emotion,3,1.04,5,aix_dataset\processed\features\train\word_0043_aug3.npy
+word_0018_aug3,word,WX·AX,世界,entity,3,0.695,4,aix_dataset\processed\features\train\word_0018_aug3.npy
+word_0057_aug3,word,FX·OX,四,number,3,0.715,4,aix_dataset\processed\features\train\word_0057_aug3.npy
+word_0058_aug1,word,FX·IX,五,number,1,0.675,4,aix_dataset\processed\features\train\word_0058_aug1.npy
+word_0001_aug2,word,ΩX,否,basic,2,0.764,3,aix_dataset\processed\features\train\word_0001_aug2.npy
+word_0017_aug0,word,NX·UX,網路,entity,0,0.695,4,aix_dataset\processed\features\train\word_0017_aug0.npy
+word_0011_aug2,word,NX·OX,連結,cognitive,2,0.78,4,aix_dataset\processed\features\train\word_0011_aug2.npy
+word_0031_aug2,word,SX·AX·TX,飽了,food,2,0.955,5,aix_dataset\processed\features\train\word_0031_aug2.npy
+word_0016_aug2,word,LX·OX,語言,entity,2,0.758,4,aix_dataset\processed\features\train\word_0016_aug2.npy
+word_0006_aug1,word,LX·AX,學習,cognitive,1,0.715,4,aix_dataset\processed\features\train\word_0006_aug1.npy
+word_0028_aug2,word,WX·AX·SX,喝水,food,2,1.05,5,aix_dataset\processed\features\train\word_0028_aug2.npy
+word_0051_aug2,word,SX·TX·OX,商店,place,2,0.955,5,aix_dataset\processed\features\train\word_0051_aug2.npy
+word_0004_aug3,word,ΔX·AX,改變,basic,3,0.715,4,aix_dataset\processed\features\train\word_0004_aug3.npy
+word_0050_aug1,word,SX·KX·UX,學校,place,1,0.87,5,aix_dataset\processed\features\train\word_0050_aug1.npy
+word_0042_aug0,word,LX·AX·VX,喜歡,emotion,0,1.03,5,aix_dataset\processed\features\train\word_0042_aug0.npy
+word_0051_aug0,word,SX·TX·OX,商店,place,0,0.9,5,aix_dataset\processed\features\train\word_0051_aug0.npy
+word_0021_aug2,word,ΨX·WX·AX,早安,greet,2,1.326,5,aix_dataset\processed\features\train\word_0021_aug2.npy
+word_0038_aug2,word,TX·AX·KX,搭車,daily,2,0.87,5,aix_dataset\processed\features\train\word_0038_aug2.npy
+word_0039_aug3,word,MX·AX·IX,買東西,daily,3,1.15,5,aix_dataset\processed\features\train\word_0039_aug3.npy
+word_0003_aug3,word,ΦX·AX,查詢,basic,3,0.855,4,aix_dataset\processed\features\train\word_0003_aug3.npy
+word_0039_aug2,word,MX·AX·IX,買東西,daily,2,1.22,5,aix_dataset\processed\features\train\word_0039_aug2.npy
+word_0002_aug2,word,ΨX·AX,存在,basic,2,1.013,4,aix_dataset\processed\features\train\word_0002_aug2.npy
+sent_0005_aug2,sentence,ΨX·WX·AX,早安,,2,1.315,5,aix_dataset\processed\features\train\sent_0005_aug2.npy
+word_0058_aug0,word,FX·IX,五,number,0,0.675,4,aix_dataset\processed\features\train\word_0058_aug0.npy
+word_0008_aug1,word,SX·IX,搜尋,cognitive,1,0.655,4,aix_dataset\processed\features\train\word_0008_aug1.npy
+word_0039_aug1,word,MX·AX·IX,買東西,daily,1,1.15,5,aix_dataset\processed\features\train\word_0039_aug1.npy
+word_0037_aug0,word,ZX·AX·UX,走路,daily,0,1.09,5,aix_dataset\processed\features\train\word_0037_aug0.npy
+word_0023_aug1,word,FX·IX·ΞX,謝謝,greet,1,0.89,5,aix_dataset\processed\features\train\word_0023_aug1.npy
+word_0009_aug1,word,GX·AX,生成,cognitive,1,0.585,4,aix_dataset\processed\features\train\word_0009_aug1.npy
+word_0034_aug3,word,KX·AX·IX,起床,daily,3,1.01,5,aix_dataset\processed\features\train\word_0034_aug3.npy
+word_0004_aug0,word,ΔX·AX,改變,basic,0,0.715,4,aix_dataset\processed\features\train\word_0004_aug0.npy
+word_0054_aug1,word,ΞX·IX,一,number,1,0.575,4,aix_dataset\processed\features\train\word_0054_aug1.npy
+sent_0001_aug0,sentence,ΨX·ΞX DX·AX SX·IX,AI搜尋資料,,0,2.14,8,aix_dataset\processed\features\train\sent_0001_aug0.npy
+word_0016_aug3,word,LX·OX,語言,entity,3,0.715,4,aix_dataset\processed\features\train\word_0016_aug3.npy
+word_0042_aug2,word,LX·AX·VX,喜歡,emotion,2,1.092,5,aix_dataset\processed\features\train\word_0042_aug2.npy
+word_0025_aug1,word,ΞX·ΛX·IX,沒關係,greet,1,0.76,5,aix_dataset\processed\features\train\word_0025_aug1.npy
+word_0022_aug2,word,NX·AX·ΨX,晚安,greet,2,1.368,5,aix_dataset\processed\features\train\word_0022_aug2.npy
+word_0048_aug3,word,MX·OX·RX,明天,time,3,1.13,5,aix_dataset\processed\features\train\word_0048_aug3.npy
+sent_0008_aug3,sentence,FX·IX·ΞX,謝謝,,3,0.88,5,aix_dataset\processed\features\train\sent_0008_aug3.npy
+word_0019_aug1,word,HX·AX·ΨX,你好,greet,1,1.23,5,aix_dataset\processed\features\train\word_0019_aug1.npy
+word_0004_aug2,word,ΔX·AX,改變,basic,2,0.758,4,aix_dataset\processed\features\train\word_0004_aug2.npy
+word_0027_aug0,word,MX·AX·NX,吃飯,food,0,1.09,5,aix_dataset\processed\features\train\word_0027_aug0.npy
+word_0050_aug2,word,SX·KX·UX,學校,place,2,0.923,5,aix_dataset\processed\features\train\word_0050_aug2.npy
+word_0023_aug0,word,FX·IX·ΞX,謝謝,greet,0,0.89,5,aix_dataset\processed\features\train\word_0023_aug0.npy
+word_0020_aug2,word,ΩX·HX·OX,再見,greet,2,1.517,5,aix_dataset\processed\features\train\word_0020_aug2.npy
+word_0028_aug1,word,WX·AX·SX,喝水,food,1,0.99,5,aix_dataset\processed\features\train\word_0028_aug1.npy
+word_0013_aug3,word,ΨX·ΞX,AI,entity,3,0.735,4,aix_dataset\processed\features\train\word_0013_aug3.npy
+word_0046_aug2,word,TX·UX·DX,今天,time,2,0.774,5,aix_dataset\processed\features\train\word_0046_aug2.npy
+sent_0003_aug0,sentence,ΨX·ΞX ΩX ΨX·IX,AI不理解,,0,2.56,7,aix_dataset\processed\features\train\sent_0003_aug0.npy
+word_0009_aug2,word,GX·AX,生成,cognitive,2,0.62,4,aix_dataset\processed\features\train\word_0009_aug2.npy
+sent_0005_aug3,sentence,ΨX·WX·AX,早安,,3,1.24,5,aix_dataset\processed\features\train\sent_0005_aug3.npy
+word_0028_aug0,word,WX·AX·SX,喝水,food,0,0.99,5,aix_dataset\processed\features\train\word_0028_aug0.npy
+word_0014_aug1,word,MX·AX,人類,entity,1,0.755,4,aix_dataset\processed\features\train\word_0014_aug1.npy
+word_0024_aug1,word,ΩX·MX·AX,對不起,greet,1,1.51,5,aix_dataset\processed\features\train\word_0024_aug1.npy
+word_0034_aug1,word,KX·AX·IX,起床,daily,1,1.01,5,aix_dataset\processed\features\train\word_0034_aug1.npy
+word_0044_aug0,word,HX·OX·PX,希望,emotion,0,0.89,5,aix_dataset\processed\features\train\word_0044_aug0.npy
+word_0007_aug3,word,MX·UX,記憶,cognitive,3,0.715,4,aix_dataset\processed\features\train\word_0007_aug3.npy
+sent_0006_aug1,sentence,MX·AX·NX HX·IX·MX,吃飯好吃,,1,2.16,8,aix_dataset\processed\features\train\sent_0006_aug1.npy
+word_0019_aug2,word,HX·AX·ΨX,你好,greet,2,1.305,5,aix_dataset\processed\features\train\word_0019_aug2.npy
+sent_0003_aug2,sentence,ΨX·ΞX ΩX ΨX·IX,AI不理解,,2,2.715,7,aix_dataset\processed\features\train\sent_0003_aug2.npy
+word_0029_aug2,word,HX·IX·MX,好吃,food,2,1.05,5,aix_dataset\processed\features\train\word_0029_aug2.npy
+sent_0000_aug0,sentence,ΨX·ΞX MX·AX ΨX·IX,AI理解人類,,0,2.59,8,aix_dataset\processed\features\train\sent_0000_aug0.npy
+word_0038_aug3,word,TX·AX·KX,搭車,daily,3,0.82,5,aix_dataset\processed\features\train\word_0038_aug3.npy
+sent_0009_aug1,sentence,MX·AX TX·AX·KX HX·OX·MX,人類搭車回家,,1,2.78,10,aix_dataset\processed\features\train\sent_0009_aug1.npy
+word_0044_aug1,word,HX·OX·PX,希望,emotion,1,0.89,5,aix_dataset\processed\features\train\word_0044_aug1.npy
+word_0029_aug3,word,HX·IX·MX,好吃,food,3,0.99,5,aix_dataset\processed\features\train\word_0029_aug3.npy
+sent_0004_aug1,sentence,HX·AX·ΨX,你好,,1,1.22,5,aix_dataset\processed\features\train\sent_0004_aug1.npy
+word_0017_aug1,word,NX·UX,網路,entity,1,0.695,4,aix_dataset\processed\features\train\word_0017_aug1.npy
+word_0027_aug3,word,MX·AX·NX,吃飯,food,3,1.09,5,aix_dataset\processed\features\train\word_0027_aug3.npy
+word_0000_aug2,word,ΞX,是,basic,2,0.191,3,aix_dataset\processed\features\train\word_0000_aug2.npy
+word_0026_aug0,word,ΦX·IX·AX,請問,greet,0,1.25,5,aix_dataset\processed\features\train\word_0026_aug0.npy
+word_0019_aug0,word,HX·AX·ΨX,你好,greet,0,1.23,5,aix_dataset\processed\features\train\word_0019_aug0.npy
+word_0048_aug0,word,MX·OX·RX,明天,time,0,1.13,5,aix_dataset\processed\features\train\word_0048_aug0.npy
+word_0050_aug0,word,SX·KX·UX,學校,place,0,0.87,5,aix_dataset\processed\features\train\word_0050_aug0.npy
+sent_0006_aug2,sentence,MX·AX·NX HX·IX·MX,吃飯好吃,,2,2.291,8,aix_dataset\processed\features\train\sent_0006_aug2.npy
+word_0024_aug0,word,ΩX·MX·AX,對不起,greet,0,1.51,5,aix_dataset\processed\features\train\word_0024_aug0.npy
+word_0028_aug3,word,WX·AX·SX,喝水,food,3,0.99,5,aix_dataset\processed\features\train\word_0028_aug3.npy
+word_0036_aug2,word,HX·UX·IX,休息,daily,2,1.092,5,aix_dataset\processed\features\train\word_0036_aug2.npy
+word_0044_aug3,word,HX·OX·PX,希望,emotion,3,0.89,5,aix_dataset\processed\features\train\word_0044_aug3.npy
+word_0055_aug1,word,DX·UX,二,number,1,0.525,4,aix_dataset\processed\features\train\word_0055_aug1.npy
+word_0018_aug2,word,WX·AX,世界,entity,2,0.737,4,aix_dataset\processed\features\train\word_0018_aug2.npy
+word_0031_aug1,word,SX·AX·TX,飽了,food,1,0.9,5,aix_dataset\processed\features\train\word_0031_aug1.npy
+word_0007_aug1,word,MX·UX,記憶,cognitive,1,0.715,4,aix_dataset\processed\features\train\word_0007_aug1.npy
+word_0055_aug2,word,DX·UX,二,number,2,0.557,4,aix_dataset\processed\features\train\word_0055_aug2.npy
+word_0049_aug3,word,HX·OX·MX,家,place,3,1.03,5,aix_dataset\processed\features\train\word_0049_aug3.npy
+sent_0001_aug1,sentence,ΨX·ΞX DX·AX SX·IX,AI搜尋資料,,1,2.14,8,aix_dataset\processed\features\train\sent_0001_aug1.npy
+sent_0008_aug0,sentence,FX·IX·ΞX,謝謝,,0,0.88,5,aix_dataset\processed\features\train\sent_0008_aug0.npy
+word_0055_aug3,word,DX·UX,二,number,3,0.525,4,aix_dataset\processed\features\train\word_0055_aug3.npy
+word_0001_aug1,word,ΩX,否,basic,1,0.72,3,aix_dataset\processed\features\train\word_0001_aug1.npy
+word_0029_aug0,word,HX·IX·MX,好吃,food,0,0.99,5,aix_dataset\processed\features\train\word_0029_aug0.npy
+word_0014_aug0,word,MX·AX,人類,entity,0,0.755,4,aix_dataset\processed\features\train\word_0014_aug0.npy
+word_0045_aug3,word,NX·AX·WX,現在,time,3,1.03,5,aix_dataset\processed\features\train\word_0045_aug3.npy
+word_0045_aug1,word,NX·AX·WX,現在,time,1,1.03,5,aix_dataset\processed\features\train\word_0045_aug1.npy
+word_0036_aug3,word,HX·UX·IX,休息,daily,3,1.03,5,aix_dataset\processed\features\train\word_0036_aug3.npy
+word_0016_aug1,word,LX·OX,語言,entity,1,0.715,4,aix_dataset\processed\features\train\word_0016_aug1.npy
+word_0052_aug3,word,TX·IX·WX,城市,place,3,0.86,5,aix_dataset\processed\features\train\word_0052_aug3.npy
+word_0021_aug1,word,ΨX·WX·AX,早安,greet,1,1.25,5,aix_dataset\processed\features\train\word_0021_aug1.npy
+word_0044_aug2,word,HX·OX·PX,希望,emotion,2,0.944,5,aix_dataset\processed\features\train\word_0044_aug2.npy
+word_0003_aug0,word,ΦX·AX,查詢,basic,0,0.855,4,aix_dataset\processed\features\train\word_0003_aug0.npy
+word_0008_aug3,word,SX·IX,搜尋,cognitive,3,0.655,4,aix_dataset\processed\features\train\word_0008_aug3.npy
+word_0007_aug0,word,MX·UX,記憶,cognitive,0,0.715,4,aix_dataset\processed\features\train\word_0007_aug0.npy
+word_0052_aug0,word,TX·IX·WX,城市,place,0,0.86,5,aix_dataset\processed\features\train\word_0052_aug0.npy
+word_0043_aug0,word,TX·AX·YX,疲倦,emotion,0,1.04,5,aix_dataset\processed\features\train\word_0043_aug0.npy
+word_0012_aug3,word,FX·AX,分析,cognitive,3,0.715,4,aix_dataset\processed\features\train\word_0012_aug3.npy
+word_0023_aug3,word,FX·IX·ΞX,謝謝,greet,3,0.89,5,aix_dataset\processed\features\train\word_0023_aug3.npy
+word_0043_aug1,word,TX·AX·YX,疲倦,emotion,1,1.04,5,aix_dataset\processed\features\train\word_0043_aug1.npy
+word_0046_aug1,word,TX·UX·DX,今天,time,1,0.73,5,aix_dataset\processed\features\train\word_0046_aug1.npy
+word_0010_aug1,word,TX·IX,傳輸,cognitive,1,0.565,4,aix_dataset\processed\features\train\word_0010_aug1.npy
+word_0056_aug1,word,TX·RX,三,number,1,0.545,4,aix_dataset\processed\features\train\word_0056_aug1.npy
+word_0045_aug2,word,NX·AX·WX,現在,time,2,1.092,5,aix_dataset\processed\features\train\word_0045_aug2.npy
+word_0034_aug0,word,KX·AX·IX,起床,daily,0,1.01,5,aix_dataset\processed\features\train\word_0034_aug0.npy
+word_0006_aug2,word,LX·AX,學習,cognitive,2,0.758,4,aix_dataset\processed\features\train\word_0006_aug2.npy
+sent_0008_aug1,sentence,FX·IX·ΞX,謝謝,,1,0.88,5,aix_dataset\processed\features\train\sent_0008_aug1.npy
+word_0035_aug1,word,WX·OX·KX,工作,daily,1,0.91,5,aix_dataset\processed\features\train\word_0035_aug1.npy
+word_0041_aug1,word,SX·AX·DX,難過,emotion,1,0.86,5,aix_dataset\processed\features\train\word_0041_aug1.npy
+word_0000_aug0,word,ΞX,是,basic,0,0.18,3,aix_dataset\processed\features\train\word_0000_aug0.npy
+sent_0000_aug2,sentence,ΨX·ΞX MX·AX ΨX·IX,AI理解人類,,2,2.747,8,aix_dataset\processed\features\train\sent_0000_aug2.npy
+word_0025_aug0,word,ΞX·ΛX·IX,沒關係,greet,0,0.76,5,aix_dataset\processed\features\train\word_0025_aug0.npy
+sent_0007_aug3,sentence,ΨX·ΞX NX·AX·WX SX·UX·IX ΔX·AX,AI現在正在睡覺,,3,3.8,12,aix_dataset\processed\features\train\sent_0007_aug3.npy
+word_0052_aug1,word,TX·IX·WX,城市,place,1,0.86,5,aix_dataset\processed\features\train\word_0052_aug1.npy
+word_0024_aug2,word,ΩX·MX·AX,對不起,greet,2,1.602,5,aix_dataset\processed\features\train\word_0024_aug2.npy
+word_0009_aug0,word,GX·AX,生成,cognitive,0,0.585,4,aix_dataset\processed\features\train\word_0009_aug0.npy
+word_0015_aug1,word,DX·AX,資料,entity,1,0.565,4,aix_dataset\processed\features\train\word_0015_aug1.npy
+word_0037_aug2,word,ZX·AX·UX,走路,daily,2,1.156,5,aix_dataset\processed\features\train\word_0037_aug2.npy
+word_0048_aug2,word,MX·OX·RX,明天,time,2,1.199,5,aix_dataset\processed\features\train\word_0048_aug2.npy
+word_0041_aug3,word,SX·AX·DX,難過,emotion,3,0.86,5,aix_dataset\processed\features\train\word_0041_aug3.npy
+word_0002_aug3,word,ΨX·AX,存在,basic,3,0.955,4,aix_dataset\processed\features\train\word_0002_aug3.npy
+sent_0009_aug0,sentence,MX·AX TX·AX·KX HX·OX·MX,人類搭車回家,,0,2.78,10,aix_dataset\processed\features\train\sent_0009_aug0.npy
+sent_0005_aug0,sentence,ΨX·WX·AX,早安,,0,1.24,5,aix_dataset\processed\features\train\sent_0005_aug0.npy
+word_0006_aug3,word,LX·AX,學習,cognitive,3,0.715,4,aix_dataset\processed\features\train\word_0006_aug3.npy
+word_0046_aug0,word,TX·UX·DX,今天,time,0,0.73,5,aix_dataset\processed\features\train\word_0046_aug0.npy
+word_0001_aug0,word,ΩX,否,basic,0,0.72,3,aix_dataset\processed\features\train\word_0001_aug0.npy
+word_0030_aug2,word,ΦX·OX·DX,餓了,food,2,1.082,5,aix_dataset\processed\features\train\word_0030_aug2.npy
+word_0008_aug0,word,SX·IX,搜尋,cognitive,0,0.655,4,aix_dataset\processed\features\train\word_0008_aug0.npy
+sent_0003_aug3,sentence,ΨX·ΞX ΩX ΨX·IX,AI不理解,,3,2.56,7,aix_dataset\processed\features\train\sent_0003_aug3.npy
+word_0040_aug2,word,HX·AX·PX,快樂,emotion,2,0.944,5,aix_dataset\processed\features\train\word_0040_aug2.npy
+word_0053_aug3,word,ΛX·AX,零,number,3,0.585,4,aix_dataset\processed\features\train\word_0053_aug3.npy
+word_0053_aug0,word,ΛX·AX,零,number,0,0.585,4,aix_dataset\processed\features\train\word_0053_aug0.npy
+word_0034_aug2,word,KX·AX·IX,起床,daily,2,1.071,5,aix_dataset\processed\features\train\word_0034_aug2.npy
+word_0015_aug2,word,DX·AX,資料,entity,2,0.599,4,aix_dataset\processed\features\train\word_0015_aug2.npy
+word_0033_aug3,word,SX·UX·IX,睡覺,daily,3,1.05,5,aix_dataset\processed\features\train\word_0033_aug3.npy
+word_0032_aug0,word,GX·IX·AX,咖啡,food,0,0.98,5,aix_dataset\processed\features\train\word_0032_aug0.npy
+sent_0007_aug2,sentence,ΨX·ΞX NX·AX·WX SX·UX·IX ΔX·AX,AI現在正在睡覺,,2,4.031,12,aix_dataset\processed\features\train\sent_0007_aug2.npy
+word_0056_aug2,word,TX·RX,三,number,2,0.578,4,aix_dataset\processed\features\train\word_0056_aug2.npy
+word_0017_aug2,word,NX·UX,網路,entity,2,0.737,4,aix_dataset\processed\features\train\word_0017_aug2.npy
+word_0057_aug1,word,FX·OX,四,number,1,0.715,4,aix_dataset\processed\features\train\word_0057_aug1.npy
+word_0016_aug0,word,LX·OX,語言,entity,0,0.715,4,aix_dataset\processed\features\train\word_0016_aug0.npy
+word_0011_aug0,word,NX·OX,連結,cognitive,0,0.735,4,aix_dataset\processed\features\train\word_0011_aug0.npy
+word_0048_aug1,word,MX·OX·RX,明天,time,1,1.13,5,aix_dataset\processed\features\train\word_0048_aug1.npy
+word_0039_aug0,word,MX·AX·IX,買東西,daily,0,1.15,5,aix_dataset\processed\features\train\word_0039_aug0.npy
+word_0010_aug0,word,TX·IX,傳輸,cognitive,0,0.565,4,aix_dataset\processed\features\train\word_0010_aug0.npy
+word_0030_aug3,word,ΦX·OX·DX,餓了,food,3,1.02,5,aix_dataset\processed\features\train\word_0030_aug3.npy
+word_0038_aug1,word,TX·AX·KX,搭車,daily,1,0.82,5,aix_dataset\processed\features\train\word_0038_aug1.npy
+word_0005_aug3,word,ΨX·IX,理解,cognitive,3,0.915,4,aix_dataset\processed\features\train\word_0005_aug3.npy
+word_0056_aug0,word,TX·RX,三,number,0,0.545,4,aix_dataset\processed\features\train\word_0056_aug0.npy
+word_0055_aug0,word,DX·UX,二,number,0,0.525,4,aix_dataset\processed\features\train\word_0055_aug0.npy
+word_0020_aug1,word,ΩX·HX·OX,再見,greet,1,1.43,5,aix_dataset\processed\features\train\word_0020_aug1.npy
+word_0009_aug3,word,GX·AX,生成,cognitive,3,0.585,4,aix_dataset\processed\features\train\word_0009_aug3.npy
+word_0049_aug1,word,HX·OX·MX,家,place,1,1.03,5,aix_dataset\processed\features\train\word_0049_aug1.npy
+sent_0002_aug3,sentence,MX·AX LX·OX ΦX·AX,人類查詢語言,,3,2.51,8,aix_dataset\processed\features\train\sent_0002_aug3.npy
+word_0011_aug3,word,NX·OX,連結,cognitive,3,0.735,4,aix_dataset\processed\features\train\word_0011_aug3.npy
+word_0023_aug2,word,FX·IX·ΞX,謝謝,greet,2,0.944,5,aix_dataset\processed\features\train\word_0023_aug2.npy
+word_0056_aug3,word,TX·RX,三,number,3,0.545,4,aix_dataset\processed\features\train\word_0056_aug3.npy
+sent_0001_aug3,sentence,ΨX·ΞX DX·AX SX·IX,AI搜尋資料,,3,2.14,8,aix_dataset\processed\features\train\sent_0001_aug3.npy
+word_0040_aug1,word,HX·AX·PX,快樂,emotion,1,0.89,5,aix_dataset\processed\features\train\word_0040_aug1.npy
+word_0010_aug3,word,TX·IX,傳輸,cognitive,3,0.565,4,aix_dataset\processed\features\train\word_0010_aug3.npy
+word_0036_aug1,word,HX·UX·IX,休息,daily,1,1.03,5,aix_dataset\processed\features\train\word_0036_aug1.npy
+word_0047_aug2,word,JX·IX·SX,昨天,time,2,0.986,5,aix_dataset\processed\features\train\word_0047_aug2.npy
+word_0053_aug1,word,ΛX·AX,零,number,1,0.585,4,aix_dataset\processed\features\train\word_0053_aug1.npy
+word_0000_aug3,word,ΞX,是,basic,3,0.18,3,aix_dataset\processed\features\train\word_0000_aug3.npy
+word_0026_aug1,word,ΦX·IX·AX,請問,greet,1,1.25,5,aix_dataset\processed\features\train\word_0026_aug1.npy
+word_0013_aug1,word,ΨX·ΞX,AI,entity,1,0.735,4,aix_dataset\processed\features\train\word_0013_aug1.npy
+word_0033_aug1,word,SX·UX·IX,睡覺,daily,1,1.05,5,aix_dataset\processed\features\train\word_0033_aug1.npy
+word_0000_aug1,word,ΞX,是,basic,1,0.18,3,aix_dataset\processed\features\train\word_0000_aug1.npy
+word_0057_aug2,word,FX·OX,四,number,2,0.758,4,aix_dataset\processed\features\train\word_0057_aug2.npy
+word_0025_aug3,word,ΞX·ΛX·IX,沒關係,greet,3,0.76,5,aix_dataset\processed\features\train\word_0025_aug3.npy
+word_0012_aug1,word,FX·AX,分析,cognitive,1,0.715,4,aix_dataset\processed\features\train\word_0012_aug1.npy
+word_0040_aug3,word,HX·AX·PX,快樂,emotion,3,0.89,5,aix_dataset\processed\features\train\word_0040_aug3.npy
+word_0020_aug0,word,ΩX·HX·OX,再見,greet,0,1.43,5,aix_dataset\processed\features\train\word_0020_aug0.npy
+word_0051_aug1,word,SX·TX·OX,商店,place,1,0.9,5,aix_dataset\processed\features\train\word_0051_aug1.npy
+word_0008_aug2,word,SX·IX,搜尋,cognitive,2,0.695,4,aix_dataset\processed\features\train\word_0008_aug2.npy
+sent_0002_aug0,sentence,MX·AX LX·OX ΦX·AX,人類查詢語言,,0,2.51,8,aix_dataset\processed\features\train\sent_0002_aug0.npy
+word_0001_aug3,word,ΩX,否,basic,3,0.72,3,aix_dataset\processed\features\train\word_0001_aug3.npy
+word_0042_aug3,word,LX·AX·VX,喜歡,emotion,3,1.03,5,aix_dataset\processed\features\train\word_0042_aug3.npy
+word_0049_aug2,word,HX·OX·MX,家,place,2,1.092,5,aix_dataset\processed\features\train\word_0049_aug2.npy
+sent_0003_aug1,sentence,ΨX·ΞX ΩX ΨX·IX,AI不理解,,1,2.56,7,aix_dataset\processed\features\train\sent_0003_aug1.npy

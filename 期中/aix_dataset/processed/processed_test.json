@@ -1,0 +1,899 @@
+[
+  {
+    "id": "word_0003_aug2",
+    "type": "word",
+    "aix_text": "ΦX·AX",
+    "tokens": [
+      "ΦX",
+      "AX"
+    ],
+    "zh": "查詢",
+    "category": "basic",
+    "augment": 2,
+    "duration_s": 0.907,
+    "wav_path": "aix_dataset\\wav\\words\\word_0003_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0003_aug2.npy",
+    "feat_shape": [
+      80,
+      75
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      33,
+      6,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0051_aug3",
+    "type": "word",
+    "aix_text": "SX·TX·OX",
+    "tokens": [
+      "SX",
+      "TX",
+      "OX"
+    ],
+    "zh": "商店",
+    "category": "place",
+    "augment": 3,
+    "duration_s": 0.9,
+    "wav_path": "aix_dataset\\wav\\words\\word_0051_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0051_aug3.npy",
+    "feat_shape": [
+      80,
+      74
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      20,
+      15,
+      9,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0046_aug3",
+    "type": "word",
+    "aix_text": "TX·UX·DX",
+    "tokens": [
+      "TX",
+      "UX",
+      "DX"
+    ],
+    "zh": "今天",
+    "category": "time",
+    "augment": 3,
+    "duration_s": 0.73,
+    "wav_path": "aix_dataset\\wav\\words\\word_0046_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0046_aug3.npy",
+    "feat_shape": [
+      80,
+      59
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      15,
+      10,
+      14,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0054_aug3",
+    "type": "word",
+    "aix_text": "ΞX·IX",
+    "tokens": [
+      "ΞX",
+      "IX"
+    ],
+    "zh": "一",
+    "category": "number",
+    "augment": 3,
+    "duration_s": 0.575,
+    "wav_path": "aix_dataset\\wav\\words\\word_0054_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0054_aug3.npy",
+    "feat_shape": [
+      80,
+      46
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      30,
+      8,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0042_aug1",
+    "type": "word",
+    "aix_text": "LX·AX·VX",
+    "tokens": [
+      "LX",
+      "AX",
+      "VX"
+    ],
+    "zh": "喜歡",
+    "category": "emotion",
+    "augment": 1,
+    "duration_s": 1.03,
+    "wav_path": "aix_dataset\\wav\\words\\word_0042_aug1.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0042_aug1.npy",
+    "feat_shape": [
+      80,
+      85
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      26,
+      6,
+      19,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0014_aug2",
+    "type": "word",
+    "aix_text": "MX·AX",
+    "tokens": [
+      "MX",
+      "AX"
+    ],
+    "zh": "人類",
+    "category": "entity",
+    "augment": 2,
+    "duration_s": 0.801,
+    "wav_path": "aix_dataset\\wav\\words\\word_0014_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0014_aug2.npy",
+    "feat_shape": [
+      80,
+      65
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      24,
+      6,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0054_aug2",
+    "type": "word",
+    "aix_text": "ΞX·IX",
+    "tokens": [
+      "ΞX",
+      "IX"
+    ],
+    "zh": "一",
+    "category": "number",
+    "augment": 2,
+    "duration_s": 0.61,
+    "wav_path": "aix_dataset\\wav\\words\\word_0054_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0054_aug2.npy",
+    "feat_shape": [
+      80,
+      49
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      30,
+      8,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0012_aug0",
+    "type": "word",
+    "aix_text": "FX·AX",
+    "tokens": [
+      "FX",
+      "AX"
+    ],
+    "zh": "分析",
+    "category": "cognitive",
+    "augment": 0,
+    "duration_s": 0.715,
+    "wav_path": "aix_dataset\\wav\\words\\word_0012_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0012_aug0.npy",
+    "feat_shape": [
+      80,
+      58
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      18,
+      6,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0022_aug0",
+    "type": "word",
+    "aix_text": "NX·AX·ΨX",
+    "tokens": [
+      "NX",
+      "AX",
+      "ΨX"
+    ],
+    "zh": "晚安",
+    "category": "greet",
+    "augment": 0,
+    "duration_s": 1.29,
+    "wav_path": "aix_dataset\\wav\\words\\word_0022_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0022_aug0.npy",
+    "feat_shape": [
+      80,
+      108
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      25,
+      6,
+      32,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0058_aug3",
+    "type": "word",
+    "aix_text": "FX·IX",
+    "tokens": [
+      "FX",
+      "IX"
+    ],
+    "zh": "五",
+    "category": "number",
+    "augment": 3,
+    "duration_s": 0.675,
+    "wav_path": "aix_dataset\\wav\\words\\word_0058_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0058_aug3.npy",
+    "feat_shape": [
+      80,
+      55
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      18,
+      8,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "sent_0004_aug0",
+    "type": "sentence",
+    "aix_text": "HX·AX·ΨX",
+    "tokens": [
+      "HX",
+      "AX",
+      "ΨX"
+    ],
+    "token_groups": [
+      [
+        "HX",
+        "AX",
+        "ΨX"
+      ]
+    ],
+    "zh": "你好",
+    "grammar": "greeting",
+    "augment": 0,
+    "duration_s": 1.22,
+    "wav_path": "aix_dataset\\wav\\sentences\\sent_0004_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\sent_0004_aug0.npy",
+    "feat_shape": [
+      80,
+      102
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      22,
+      6,
+      32,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0005_aug1",
+    "type": "word",
+    "aix_text": "ΨX·IX",
+    "tokens": [
+      "ΨX",
+      "IX"
+    ],
+    "zh": "理解",
+    "category": "cognitive",
+    "augment": 1,
+    "duration_s": 0.915,
+    "wav_path": "aix_dataset\\wav\\words\\word_0005_aug1.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0005_aug1.npy",
+    "feat_shape": [
+      80,
+      75
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      32,
+      8,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0040_aug0",
+    "type": "word",
+    "aix_text": "HX·AX·PX",
+    "tokens": [
+      "HX",
+      "AX",
+      "PX"
+    ],
+    "zh": "快樂",
+    "category": "emotion",
+    "augment": 0,
+    "duration_s": 0.89,
+    "wav_path": "aix_dataset\\wav\\words\\word_0040_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0040_aug0.npy",
+    "feat_shape": [
+      80,
+      73
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      22,
+      6,
+      13,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0047_aug3",
+    "type": "word",
+    "aix_text": "JX·IX·SX",
+    "tokens": [
+      "JX",
+      "IX",
+      "SX"
+    ],
+    "zh": "昨天",
+    "category": "time",
+    "augment": 3,
+    "duration_s": 0.93,
+    "wav_path": "aix_dataset\\wav\\words\\word_0047_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0047_aug3.npy",
+    "feat_shape": [
+      80,
+      77
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      29,
+      8,
+      20,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "sent_0005_aug1",
+    "type": "sentence",
+    "aix_text": "ΨX·WX·AX",
+    "tokens": [
+      "ΨX",
+      "WX",
+      "AX"
+    ],
+    "token_groups": [
+      [
+        "ΨX",
+        "WX",
+        "AX"
+      ]
+    ],
+    "zh": "早安",
+    "grammar": "greeting",
+    "augment": 1,
+    "duration_s": 1.24,
+    "wav_path": "aix_dataset\\wav\\sentences\\sent_0005_aug1.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\sent_0005_aug1.npy",
+    "feat_shape": [
+      80,
+      103
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      32,
+      28,
+      6,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0037_aug1",
+    "type": "word",
+    "aix_text": "ZX·AX·UX",
+    "tokens": [
+      "ZX",
+      "AX",
+      "UX"
+    ],
+    "zh": "走路",
+    "category": "daily",
+    "augment": 1,
+    "duration_s": 1.09,
+    "wav_path": "aix_dataset\\wav\\words\\word_0037_aug1.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0037_aug1.npy",
+    "feat_shape": [
+      80,
+      90
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      21,
+      6,
+      10,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0032_aug2",
+    "type": "word",
+    "aix_text": "GX·IX·AX",
+    "tokens": [
+      "GX",
+      "IX",
+      "AX"
+    ],
+    "zh": "咖啡",
+    "category": "food",
+    "augment": 2,
+    "duration_s": 1.039,
+    "wav_path": "aix_dataset\\wav\\words\\word_0032_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0032_aug2.npy",
+    "feat_shape": [
+      80,
+      86
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      16,
+      8,
+      6,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0037_aug3",
+    "type": "word",
+    "aix_text": "ZX·AX·UX",
+    "tokens": [
+      "ZX",
+      "AX",
+      "UX"
+    ],
+    "zh": "走路",
+    "category": "daily",
+    "augment": 3,
+    "duration_s": 1.09,
+    "wav_path": "aix_dataset\\wav\\words\\word_0037_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0037_aug3.npy",
+    "feat_shape": [
+      80,
+      90
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      21,
+      6,
+      10,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0024_aug3",
+    "type": "word",
+    "aix_text": "ΩX·MX·AX",
+    "tokens": [
+      "ΩX",
+      "MX",
+      "AX"
+    ],
+    "zh": "對不起",
+    "category": "greet",
+    "augment": 3,
+    "duration_s": 1.51,
+    "wav_path": "aix_dataset\\wav\\words\\word_0024_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0024_aug3.npy",
+    "feat_shape": [
+      80,
+      127
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      35,
+      24,
+      6,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0021_aug3",
+    "type": "word",
+    "aix_text": "ΨX·WX·AX",
+    "tokens": [
+      "ΨX",
+      "WX",
+      "AX"
+    ],
+    "zh": "早安",
+    "category": "greet",
+    "augment": 3,
+    "duration_s": 1.25,
+    "wav_path": "aix_dataset\\wav\\words\\word_0021_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0021_aug3.npy",
+    "feat_shape": [
+      80,
+      104
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      32,
+      28,
+      6,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0053_aug2",
+    "type": "word",
+    "aix_text": "ΛX·AX",
+    "tokens": [
+      "ΛX",
+      "AX"
+    ],
+    "zh": "零",
+    "category": "number",
+    "augment": 2,
+    "duration_s": 0.62,
+    "wav_path": "aix_dataset\\wav\\words\\word_0053_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0053_aug2.npy",
+    "feat_shape": [
+      80,
+      50
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      31,
+      6,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0030_aug1",
+    "type": "word",
+    "aix_text": "ΦX·OX·DX",
+    "tokens": [
+      "ΦX",
+      "OX",
+      "DX"
+    ],
+    "zh": "餓了",
+    "category": "food",
+    "augment": 1,
+    "duration_s": 1.02,
+    "wav_path": "aix_dataset\\wav\\words\\word_0030_aug1.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0030_aug1.npy",
+    "feat_shape": [
+      80,
+      84
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      33,
+      9,
+      14,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "sent_0009_aug3",
+    "type": "sentence",
+    "aix_text": "MX·AX TX·AX·KX HX·OX·MX",
+    "tokens": [
+      "MX",
+      "AX",
+      "TX",
+      "AX",
+      "KX",
+      "HX",
+      "OX",
+      "MX"
+    ],
+    "token_groups": [
+      [
+        "MX",
+        "AX"
+      ],
+      [
+        "TX",
+        "AX",
+        "KX"
+      ],
+      [
+        "HX",
+        "OX",
+        "MX"
+      ]
+    ],
+    "zh": "人類搭車回家",
+    "grammar": "declarative",
+    "augment": 3,
+    "duration_s": 2.78,
+    "wav_path": "aix_dataset\\wav\\sentences\\sent_0009_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\sent_0009_aug3.npy",
+    "feat_shape": [
+      80,
+      236
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      24,
+      6,
+      15,
+      6,
+      17,
+      22,
+      9,
+      24,
+      3
+    ],
+    "seq_len": 10
+  },
+  {
+    "id": "word_0005_aug0",
+    "type": "word",
+    "aix_text": "ΨX·IX",
+    "tokens": [
+      "ΨX",
+      "IX"
+    ],
+    "zh": "理解",
+    "category": "cognitive",
+    "augment": 0,
+    "duration_s": 0.915,
+    "wav_path": "aix_dataset\\wav\\words\\word_0005_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0005_aug0.npy",
+    "feat_shape": [
+      80,
+      75
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      32,
+      8,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0047_aug0",
+    "type": "word",
+    "aix_text": "JX·IX·SX",
+    "tokens": [
+      "JX",
+      "IX",
+      "SX"
+    ],
+    "zh": "昨天",
+    "category": "time",
+    "augment": 0,
+    "duration_s": 0.93,
+    "wav_path": "aix_dataset\\wav\\words\\word_0047_aug0.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0047_aug0.npy",
+    "feat_shape": [
+      80,
+      77
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      29,
+      8,
+      20,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0017_aug3",
+    "type": "word",
+    "aix_text": "NX·UX",
+    "tokens": [
+      "NX",
+      "UX"
+    ],
+    "zh": "網路",
+    "category": "entity",
+    "augment": 3,
+    "duration_s": 0.695,
+    "wav_path": "aix_dataset\\wav\\words\\word_0017_aug3.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0017_aug3.npy",
+    "feat_shape": [
+      80,
+      56
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      25,
+      10,
+      3
+    ],
+    "seq_len": 4
+  },
+  {
+    "id": "word_0026_aug2",
+    "type": "word",
+    "aix_text": "ΦX·IX·AX",
+    "tokens": [
+      "ΦX",
+      "IX",
+      "AX"
+    ],
+    "zh": "請問",
+    "category": "greet",
+    "augment": 2,
+    "duration_s": 1.326,
+    "wav_path": "aix_dataset\\wav\\words\\word_0026_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0026_aug2.npy",
+    "feat_shape": [
+      80,
+      111
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      33,
+      8,
+      6,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "sent_0008_aug2",
+    "type": "sentence",
+    "aix_text": "FX·IX·ΞX",
+    "tokens": [
+      "FX",
+      "IX",
+      "ΞX"
+    ],
+    "token_groups": [
+      [
+        "FX",
+        "IX",
+        "ΞX"
+      ]
+    ],
+    "zh": "謝謝",
+    "grammar": "social",
+    "augment": 2,
+    "duration_s": 0.933,
+    "wav_path": "aix_dataset\\wav\\sentences\\sent_0008_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\sent_0008_aug2.npy",
+    "feat_shape": [
+      80,
+      77
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      18,
+      8,
+      30,
+      3
+    ],
+    "seq_len": 5
+  },
+  {
+    "id": "word_0025_aug2",
+    "type": "word",
+    "aix_text": "ΞX·ΛX·IX",
+    "tokens": [
+      "ΞX",
+      "ΛX",
+      "IX"
+    ],
+    "zh": "沒關係",
+    "category": "greet",
+    "augment": 2,
+    "duration_s": 0.806,
+    "wav_path": "aix_dataset\\wav\\words\\word_0025_aug2.wav",
+    "sample_rate": 44100,
+    "feat_path": "aix_dataset\\processed\\features\\test\\word_0025_aug2.npy",
+    "feat_shape": [
+      80,
+      66
+    ],
+    "feature_type": "mel",
+    "token_ids": [
+      2,
+      30,
+      31,
+      8,
+      3
+    ],
+    "seq_len": 5
+  }
+]

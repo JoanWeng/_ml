@@ -1,1 +1,0 @@
-https://github.com/ccc114b/cccocw/blob/main/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/07-%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B/01-%E5%82%B3%E7%B5%B1%E6%96%B9%E6%B3%95/lm/generate.py
